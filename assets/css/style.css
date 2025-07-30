@@ -435,11 +435,14 @@ footer .content p span {
         opacity: 0;
     }
 
-}
-
-@media (max-width:820px) {
     .row{
-        display: inline;
-        margin: 0 auto;
+        /* display: inline; */
+        /* margin: 0 auto; */
+        /* display: flex; */
+        flex-wrap: wrap;
     }
+    .col-6{
+        width: 100%;
+    }
+
 }
